@@ -4,16 +4,26 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div {
-    height: 29rem;
-    width: 26rem;
-    margin: 3rem auto;
-    padding: .2rem;
+.texto {
+    width: 60rem;
+    height: 80rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    background-color: rgb(29, 29, 29); 
+    color: white;
 }
 
-img {
+.imagem {
     height: 28rem;
-    width: 25rem;
+    width: 25rem;;
     border: 2px rgb(38, 0, 255) solid;
     margin: .3rem;
+}
+
+.descricao {
+    color: rgb(128, 128, 255);
+}
+
+.rodape {
+    padding-bottom: 3rem;
 }
