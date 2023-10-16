@@ -1,42 +1,100 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Exemplo 19</title>
-    <style>
-        tr:hover {
-            background-color: #ffffff !important;
-            color: #FF4500;
-            font-weight: bold;
-
-            font-size: 1.5rem;
-        }
-
-        tr:nth-child(even) {
-            background-color: #8b9dc3;
-        }
-
-        tr:nth-child(odd) {
-            background-color: #dfe3ee;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <table border="1" cellspacing="0">
-        <tr class="1">
-            <td>Cel[1,1]</td>
-            <td colspan="2">cel[1,2]</td>
-        </tr>
-        <tr class="2">
-            <td>cel[2,1]</td>
-            <td rowspan="2">cel[2,2]</td>
-            <td>cel[2,3]</td>
-        </tr>
-        <tr class="3">
-            <td>cel[3,1]</td>
-            <td>cel[3,2]</td>
-            <td>cel[3,3]</td>
-        </tr>
+    <header> Tabela com os melhores filmes clássicos! </header>
+    <table>
+        <thead>
+            <tr>
+                <th>TÍTULO</th>
+                <th>DIRETOR</th>
+                <th>ATOR PRINCIPAL</th>
+                <th>ANO DE LANÇAMENTO</th>
+                <th>CLASSIFICAÇÃO ETÁRIA</th>
+                <th>ESTRELAS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edward Mãos de Tesoura</td>
+                <td>Tim Burton</td>
+                <td>Johnny Depp</td>
+                <td class="valor">1991</td>
+                <td class="valor">Livre</td>
+                <td class="valor">4.5</td>
+            </tr>
+            <tr>
+                <td>E.T.</td>
+                <td>Steven Spielberg</td>
+                <td>Henry Thomas</td>
+                <td class="valor">1982</td>
+                <td class="valor">Livre</td>
+                <td class="valor">4.5</td>
+            </tr>
+            <tr>
+                <td>Cidadão Kane</td>
+                <td>Orson Welles</td>
+                <td>Orson Welles</td>
+                <td class="valor">1941</td>
+                <td class="valor">12 anos</td>
+                <td class="valor">4.5</td>
+            </tr>
+            <tr>
+                <td>Casablanca</td>
+                <td>Michael Curtiz</td>
+                <td>Humphrey Bogart</td>
+                <td class="valor">1942</td>
+                <td class="valor">12 anos</td>
+                <td class="valor">4.5</td>
+            </tr>
+            <tr>
+                <td>E o Vento Levou</td>
+                <td>Victor Fleming</td>
+                <td>Vivien Leigh</td>
+                <td class="valor">1939</td>
+                <td class="valor">14 anos</td>
+                <td class="valor">4.5</td>
+            </tr>
+            <tr>
+                <td>O Poderoso Chefão</td>
+                <td>Francis Ford Coppola</td>
+                <td>Marlon Brando</td>
+                <td class="valor">1972</td>
+                <td class="valor">16 anos</td>
+                <td class="valor">4.5</td>
+            </tr>
+            <tr>
+                <td>O Mágico de Oz</td>
+                <td>Victor Fleming</td>
+                <td>Judy Garland</td>
+                <td class="valor">1939</td>
+                <td class="valor">Livre</td>
+                <td class="valor">4.0</td>
+            </tr>
+            <tr>
+                <td>12 Homens e uma Sentença</td>
+                <td>Sidney Lumet</td>
+                <td>Henry Fonda</td>
+                <td class="valor">1957</td>
+                <td class="valor">12 anos</td>
+                <td class="valor">4.5</td>
+            </tr>
+            <tr>
+                <td>O Terceiro Homem</td>
+                <td>Carol Reed</td>
+                <td>Orson Welles</td>
+                <td class="valor">1949</td>
+                <td class="valor">12 anos</td>
+                <td class="valor">4.0</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 

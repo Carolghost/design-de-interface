@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #ce4b4b !important;
+    color: #ffffff;
+
+}
+
+th:hover {
+    background-color: #ce4b4b !important;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.valor {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    color: #ce4b4b;
+}
+
+header {
+    text-align: center;
+    font-size: 3rem;
+    color: #ce4b4b;
+    margin: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

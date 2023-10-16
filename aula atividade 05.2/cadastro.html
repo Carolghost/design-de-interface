@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+    <form id="cadastroForm" action="curriculo.html" method="post"><input name="assunto" type="hidden" value="Class" />
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento" name="dataNascimento" required><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br>
+        Tem interesse em: <br />
+        <input id="fu" type="checkbox" name="esporte1" value="futebol">
+        <label for="fu">Moda</label>
+        <input id="na" type="checkbox" name="esporte2" value="natacao">
+        <label for="na">Esporte</label>
+        <input id="vo" type="checkbox" name="esporte3" value="volei">
+        <label for="vo">Música</label> <br>
+        <label for="nome">Cidade:</label>
+        <input type="text" id="nome" name="nome" required><br>
+        <select name="sexo">
+            <option value="valor1">Masculino</option>
+            <option value="valor2">feminino</option>
+            <option value="valor3">outros</option>
+            </select>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br>
+        <label for="confirmSenha">Confirme a Senha:</label>
+        <input type="password" id="confirmSenha" name="confirmSenha" required><br>
+        <p><input type="submit" name="submit" value="Cadastrar"></p>
+    </form>
+    <p>Já tem uma conta? <a href="index.html">Faça login</a></p>
+</body>
+
+</html>

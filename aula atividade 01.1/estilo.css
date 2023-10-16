@@ -1,29 +1,25 @@
 html,
 body {
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: white;
 }
 
-.texto {
-    width: 60rem;
-    height: 80rem;
-    padding: 3rem;
+main {
+    width: 30rem;
     margin: 1rem auto;
-    background-color: rgb(29, 29, 29); 
-    color: white;
 }
 
-.imagem {
-    height: 28rem;
-    width: 25rem;;
-    border: 2px rgb(38, 0, 255) solid;
-    margin: .3rem;
+.davi {
+    width: 15rem;
+    height: 20rem;
 }
 
-.descricao {
-    color: rgb(128, 128, 255);
+.criatividade {
+    width: 35rem;
+    height: 20rem;
 }
 
-.rodape {
-    padding-bottom: 3rem;
+.una {
+    width: 10rem;
+    height: 3rem;
 }

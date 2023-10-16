@@ -1,0 +1,16 @@
+div {
+    height: 29rem;
+    width: 52rem;
+    border: 2px green solid;
+    margin: 3rem auto;
+    padding: .2rem;
+    text-align: center;
+    display: flex;
+}
+
+img {
+    height: 28rem;
+    width: 25rem;
+    border: 2px red solid;
+    margin: .3rem;
+}

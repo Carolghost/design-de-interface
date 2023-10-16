@@ -1,34 +1,109 @@
-html,
-body {
-	font-family: monospace;
-	color: #333;
-}
-
-h1 {
+.head {
+    background-color: rgb(60, 14, 120);
+    width: auto;
+    margin: auto;
+    height: 50rem;
     text-align: center;
-    margin: 20px 0 0 0;
-    font-size: 5rem;
-    font-weight: normal;
-    background: tomato;
-    color: white;
+    font-size: 50px
 }
 
-.filme {
-    margin: 5px;
-	background: rgb(63, 63, 63);
-	text-align: center;
-	font-size: 1.5em;
+
+.p {
+    width: auto;
+    margin: auto;
+    height: 50rem;
+    font-size: 4rem;
+    text-align: center;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 400px;
-	margin: 0 auto;
-	border: 1px solid #ccc;
+
+.titulo {
+    background-color: rgb(60, 14, 120);
+    font-style: normal;
+    font-size: 10rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center
 }
 
-.rodape{
-    background: tomato;
-    color: white;
+
+.subtitulo {
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.titulo1 {
+    font-style: normal;
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.color {
+    background-color: rgb(60, 14, 120);
+    width: auto;
+    margin: auto;
+    height: 18rem;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+
+.aranhaverso {
+    width: 13rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
+
+.Encanto {
+    width: 13rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
+
+.sonic {
+    width: 12rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
+
+.suzume {
+    width: 13rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
+
+.avatar {
+    width: 13rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
+
+.Barbie {
+    width: 13rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
+
+.fnaf {
+    width: 13rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
+
+.guardioes {
+    width: 13rem;
+    height: 20rem;
+    margin: 3rem;
 }

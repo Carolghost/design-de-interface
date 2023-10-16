@@ -1,0 +1,29 @@
+body {
+    color: black;
+    background-color: white;
+}
+
+main {
+    width: 30rem;
+    margin: 1rem auto;
+}
+
+.animaçao {
+    width: 20rem;
+    height: 20rem;
+}
+
+.audiovisual {
+    width: 29rem;
+    height: 18rem;
+}
+
+.peças {
+    width: 29rem;
+    height: 20rem;
+}
+
+.una {
+    width: 10rem;
+    height: 3rem;
+}

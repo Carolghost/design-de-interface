@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.recipes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.recipe {
+    margin: 20px;
+}
+
+.recipe img {
+    max-width: 300px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
