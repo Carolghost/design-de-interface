@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movimentar</title>
+    <meta chatset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style>
+        html,
+        body {
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+
+        #caixa {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            background-image: url(pngimg.com\ -\ pacman_PNG70.png);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body onkeydown="movimentar(event)">
+    <div id="caixa"></div>
+    <script> var deslocamento_horizontal = 0; var deslocamento_vertical = 0; function movimentar(event) { const tecla = event.key; if (tecla == 'ArrowUp') subir(); if (tecla == 'ArrowDown') descer(); if (tecla == 'ArrowLeft') voltar(); if (tecla == 'ArrowRight') avancar(); } function subir() {
+            deslocamento_vertical -= 10; caixa.style.marginTop = `${deslocamento_vertical}px`;
+        } function descer() { deslocamento_vertical += 10; caixa.style.marginTop = `${deslocamento_vertical}px`; } function voltar() { deslocamento_horizontal -= 10; caixa.style.marginLeft = `${deslocamento_horizontal}px`; } function avancar() { deslocamento_horizontal += 10; caixa.style.marginLeft = `${deslocamento_horizontal}px`; } </script>
+    </div>
+</body>
+
+</html>
