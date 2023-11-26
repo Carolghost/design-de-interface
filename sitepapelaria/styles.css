@@ -13,10 +13,6 @@ header {
     padding: 5px;
 }
 
-.titulo {
-    text-align: center;
-}
-
 nav {
     background-color: #f0b0d0;
     padding: 5px;
@@ -25,24 +21,14 @@ nav {
     font-size: 20px;
 }
 
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
 .container {
     padding: 10px;
-}
-
-.produto {
-    border: 2px solid #e5e5e5;
-    margin-top: 20px;
-    display: block;
-}
-
-.produtoImagem {
-    padding-bottom: 35px;
-    text-align: center;
-}
-
-.detalhes {
-    background-color: #f0f0f0;
-    text-align: center;
 }
 
 footer {
@@ -51,6 +37,25 @@ footer {
     padding: 10px;
     bottom: 0;
     width: 100%;
+}
+.titulo {
+    text-align: center;
+}
+
+.produtos {
+    border: 2px solid #e5e5e5;
+    margin-top: 20px;
+    display: block;
+}
+
+.Imagemproduto {
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.detalhes {
+    background-color: #f0f0f0;
+    text-align: center;
 }
 
 .contato-section {

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Movimentar</title>
+    <title>Movimentar pac-man</title>
     <meta chatset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <style>
@@ -11,24 +11,81 @@
             font-size: 16px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
+            width: 19.63rem;
+            height: 17.46rem;
+            animation-name: backgroundChange;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
         }
 
         #caixa {
             position: absolute;
             width: 100px;
             height: 100px;
-            background-color: white;
+            background-color: transparent;
             background-image: url(pngimg.com\ -\ pacman_PNG70.png);
             background-size: cover;
+        }
+
+        @keyframes backgroundChange {
+            0% {
+                background-color: red;
+            }
+
+            25% {
+                background-color: yellow;
+            }
+
+            50% {
+                background-color: blue;
+            }
+
+            75% {
+                background-color: green;
+            }
+
+            100% {
+                background-color: red;
+            }
         }
     </style>
 </head>
 
 <body onkeydown="movimentar(event)">
     <div id="caixa"></div>
-    <script> var deslocamento_horizontal = 0; var deslocamento_vertical = 0; function movimentar(event) { const tecla = event.key; if (tecla == 'ArrowUp') subir(); if (tecla == 'ArrowDown') descer(); if (tecla == 'ArrowLeft') voltar(); if (tecla == 'ArrowRight') avancar(); } function subir() {
-            deslocamento_vertical -= 10; caixa.style.marginTop = `${deslocamento_vertical}px`;
-        } function descer() { deslocamento_vertical += 10; caixa.style.marginTop = `${deslocamento_vertical}px`; } function voltar() { deslocamento_horizontal -= 10; caixa.style.marginLeft = `${deslocamento_horizontal}px`; } function avancar() { deslocamento_horizontal += 10; caixa.style.marginLeft = `${deslocamento_horizontal}px`; } </script>
+
+    <script>
+        var deslocamento_horizontal = 0;
+        var deslocamento_vertical = 0;
+
+        function movimentar(event) {
+            const tecla = event.key;
+            if (tecla == 'ArrowUp')
+                subir();
+            if (tecla == 'ArrowDown')
+                descer();
+            if (tecla == 'ArrowLeft')
+                voltar();
+            if (tecla == 'ArrowRight')
+                avancar();
+        }
+        function subir() {
+            deslocamento_vertical -= 10;
+            caixa.style.marginTop = `${deslocamento_vertical}px`;
+        }
+        function descer() {
+            deslocamento_vertical += 10;
+            caixa.style.marginTop = `${deslocamento_vertical}px`;
+        }
+        function voltar() {
+            deslocamento_horizontal -= 10;
+            caixa.style.marginLeft = `${deslocamento_horizontal}px`;
+        }
+        function avancar() {
+            deslocamento_horizontal += 10;
+            caixa.style.marginLeft = `${deslocamento_horizontal}px`;
+        }
+    </script>
     </div>
 </body>
 
